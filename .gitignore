@@ -1,0 +1,87 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+!cmake/*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.sim
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+build/
+Debug/
+Release/
+VisualGDB/
+settings/
+
+.DS_Store
+.cortex-debug.*
+
+output.txt
+
+# IAR Settings  
+**/settings/*.crun  
+**/settings/*.dbgdt  
+**/settings/*.cspy  
+**/settings/*.cspy.*  
+**/settings/*.xcl  
+**/settings/*.dni  
+**/settings/*.wsdt  
+**/settings/*.wspos  
+
+# IAR Debug Exe  
+**/Exe/*.sim  
+
+# IAR Debug Obj  
+**/Obj/*.pbd  
+**/Obj/*.pbd.*  
+**/Obj/*.pbi  
+**/Obj/*.pbi.*
+
+EWARM/Debug
+EWARM/Tx_SecureLEDToggle_TrustZone_NS
+EWARM/Tx_SecureLEDToggle_TrustZone_S
