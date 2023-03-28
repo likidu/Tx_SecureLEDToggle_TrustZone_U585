@@ -352,6 +352,7 @@
                     <state>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32U5xx\Include</state>
                     <state>$PROJ_DIR$\..\Middlewares\ST\threadx\common\inc</state>
                     <state>$PROJ_DIR$\..\Middlewares\ST\threadx\ports\cortex_m33\iar\inc</state>
+                    <state>$PROJ_DIR$\..\Drivers\BSP\B-U585I-IOT02A</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2188,6 +2189,15 @@
     </group>
     <group>
         <name>Drivers</name>
+        <group>
+            <name>BSP</name>
+            <group>
+                <name>B-U585I-IOT02A</name>
+                <file>
+                    <name>$PROJ_DIR$\..\Drivers\BSP\B-U585I-IOT02A\b_u585i_iot02a.c</name>
+                </file>
+            </group>
+        </group>
         <group>
             <name>CMSIS</name>
             <file>

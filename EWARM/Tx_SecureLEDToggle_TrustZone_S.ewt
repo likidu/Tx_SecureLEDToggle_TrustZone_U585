@@ -2881,6 +2881,15 @@
     <group>
         <name>Drivers</name>
         <group>
+            <name>BSP</name>
+            <group>
+                <name>B-U585I-IOT02A</name>
+                <file>
+                    <name>$PROJ_DIR$\..\Drivers\BSP\B-U585I-IOT02A\b_u585i_iot02a.c</name>
+                </file>
+            </group>
+        </group>
+        <group>
             <name>CMSIS</name>
             <file>
                 <name>$PROJ_DIR$\..\Secure\Src\system_stm32u5xx_s.c</name>
